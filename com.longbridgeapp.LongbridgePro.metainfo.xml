@@ -5,14 +5,14 @@
   <project_license>LicenseRef-proprietary=https://support.longbridgeapp.com/topics/us-trade/user-agreement</project_license>
   <name>Longbridge Pro</name>
   <developer_name>LONG BRIDGE</developer_name>
-  <url type="homepage">https://longbridgeapp.com</url>
+  <url type="homepage">https://longbridge.com/desktop/</url>
   <summary>Trading platform</summary>
   <description>
-    <p>Longbridge Pro is  a professional trading platform tailored to your needs, with over 100 technical indicators and 12 multi-dimensional marking tools from Trading View, can elevate your strategy to a new level of value. </p>
+    <p>A new professional securities trading desktop application, delivering an ultra-smooth investment experience for more efficient and convenient trading.</p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <image>https://pub.lbkrs.com/files/202203/NRtpwMCh6UCPrezz/en01.png</image>
+      <image>https://assets.lbctrl.com/uploads/f9971b35-3172-40a6-b124-65aea2e597a5/scr-20250502-mjkc.png</image>
       <caption>Longbridge Pro</caption>
     </screenshot>
   </screenshots>
@@ -22,6 +22,9 @@
     <content_attribute id="money-purchasing">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="v0.2.3" date="2025-06-10"/>
+    <release version="v0.2.2" date="2025-05-26"/>
+    <release version="v0.2.1" date="2025-05-08"/>
     <release version="1.7.3-latest-8788" date="2023-09-23"/>
   </releases>
 </component>
