@@ -5,7 +5,6 @@ sdk: org.gnome.Sdk
 command: longbridgepro
 
 finish-args:
-  - --device=dri
   - --share=ipc
   - --share=network
   - --socket=pulseaudio
