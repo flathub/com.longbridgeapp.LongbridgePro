@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec zypak-wrapper /app/extra/longbridgepro/longbridge-desktop "$@"
+export FONTCONFIG_FILE=/app/share/fonts/fonts.conf
+exec /app/extra/longbridge "$@"
