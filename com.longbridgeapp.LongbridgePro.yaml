@@ -3,7 +3,7 @@ runtime: org.gnome.Platform
 runtime-version: '50'
 sdk: org.gnome.Sdk
 command: longbridgepro
-tags: 
+tags:
   - proprietary
 
 finish-args:
@@ -46,9 +46,9 @@ modules:
       - type: extra-data
         filename: longbridgepro.deb
         only-arches: [x86_64]
-        url: https://assets.lbkrs.com/github/release/longbridge-desktop/stable/longbridge-v0.16.0-linux-x86_64.deb
-        sha256: dc23b40f08b239369dcff9f46f9a617aa067b58a1899e5e25f137e63a9eb6094
-        size: 48636344
+        url: https://assets.lbkrs.com/github/release/longbridge-desktop/stable/longbridge-v0.16.1-linux-x86_64.deb
+        sha256: b957a6bac2a1af096ec2bb958af595d04a9bc82405af2463490b89358c2c2757
+        size: 48642226
         x-checker-data:
           type: json
           url: https://assets.lbkrs.com/github/release/longbridge-desktop/stable/latest.json
