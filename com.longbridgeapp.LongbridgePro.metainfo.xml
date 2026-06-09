@@ -22,7 +22,51 @@
     <content_attribute id="money-purchasing">intense</content_attribute>
   </content_rating>
   <releases>
-    <release version="v0.15.1" date="2026-04-24"/>
-    <release version="1.7.3-latest-8788" date="2023-09-23"/>
+    <release version="0.16.1" date="2026-05-28">
+      <description>
+        <p>Optimized:</p>
+        <ul>
+          <li>Fixed an issue where modifying a sell order incorrectly triggered a short-sell risk warning.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.16.0" date="2026-05-20">
+      <description>
+        <p>New Features:</p>
+        <ul>
+          <li>Chart: Added K-line "Interval Statistics", making it easier to monitor and review price action.</li>
+          <li>Chart: Added a right-click context menu to switch K-line type, adjust type, or open the trade window without going to Global Settings.</li>
+          <li>Chart: Added Y-axis zoom for adjusting the price axis independently.</li>
+          <li>Trade: Options trading now supports attached orders (stop-loss / take-profit).</li>
+          <li>Announcements: Added system announcement notifications.</li>
+          <li>Stock Reminder: Added push notification support, so alerts arrive in real time.</li>
+          <li>Quotes: Added activity tags (earnings, dividends, IPOs, important advisories, etc.).</li>
+          <li>Option Chain: Added financial report data, and bid/ask prices can be sent directly into the trade form.</li>
+          <li>Portfolio: Brand-new "Financing Status" page with more financing details and credit-limit adjustment.</li>
+          <li>Login: Added a password reset flow for "Forgot password", completed entirely inside the client.</li>
+        </ul>
+        <p>Improvements:</p>
+        <ul>
+          <li>Order push notifications now show the account name, and the success sound is muted for demo accounts.</li>
+          <li>Fixed state interference when quick-editing several orders in rapid succession.</li>
+          <li>Improved the trade password flow so actions like withdraw continue automatically after verification.</li>
+          <li>Fixed incorrect holding cost displayed after estimated fill on position close.</li>
+          <li>Login: Streamlined the login flow, improved the captcha network-error prompt, and added a retry mechanism.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.15.1" date="2026-04-24">
+      <description>
+        <p>New Features:</p>
+        <ul>
+          <li>Watchlist now supports switching the position of stock name and code.</li>
+        </ul>
+        <p>Optimizations:</p>
+        <ul>
+          <li>Fixed an issue where the order session for option stop-profit/stop-loss orders was incorrect.</li>
+          <li>Fixed an issue where the estimated quantity on the order screen was displayed inaccurately.</li>
+        </ul>
+      </description>
+    </release>
   </releases>
 </component>
