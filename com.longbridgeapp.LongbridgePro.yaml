@@ -46,9 +46,9 @@ modules:
       - type: extra-data
         filename: longbridgepro.deb
         only-arches: [x86_64]
-        url: https://assets.lbkrs.com/github/release/longbridge-desktop/stable/longbridge-v0.16.1-linux-x86_64.deb
-        sha256: b957a6bac2a1af096ec2bb958af595d04a9bc82405af2463490b89358c2c2757
-        size: 48642226
+        url: https://assets.lbkrs.com/github/release/longbridge-desktop/stable/longbridge-v0.17.0-linux-x86_64.deb
+        sha256: d8ae2a793f3157e27a55c314ac0359c8f41737167cd93b8b736acba252c1306e
+        size: 52548216
         x-checker-data:
           type: json
           is-main-source: true
