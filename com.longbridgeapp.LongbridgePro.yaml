@@ -19,7 +19,8 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D longbridgepro.sh /app/bin/longbridgepro
-      - install -Dm644 longbridgepro.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/com.longbridgeapp.LongbridgePro.png
+      - install -Dm644 longbridgepro.png 
+        ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/com.longbridgeapp.LongbridgePro.png
       - install -Dm644 com.longbridgeapp.LongbridgePro.metainfo.xml -t /app/share/metainfo
       - install -Dm644 fonts.conf -t /app/share/fonts/
       - install -Dm644 com.longbridgeapp.LongbridgePro.desktop -t /app/share/applications
@@ -46,9 +47,10 @@ modules:
       - type: extra-data
         filename: longbridgepro.deb
         only-arches: [x86_64]
-        url: https://assets.lbkrs.com/github/release/longbridge-desktop/stable/longbridge-v1.0.0-linux-x86_64.deb
-        sha256: d7bc2794eef49b5f1f17fa6fec9055bf9f114e847f1923814856a819cab6f811
-        size: 63352242
+        url: 
+          https://assets.lbkrs.com/github/release/longbridge-desktop/stable/longbridge-v1.1.0-linux-x86_64.deb
+        sha256: 0dd34101bed312de7d0ba525131de0e8ce2c45f2de24da4acd2d9944f1301103
+        size: 67956664
         x-checker-data:
           type: json
           is-main-source: true
@@ -63,10 +65,12 @@ modules:
       - install -Dm644 NotoSans.LICENSE.txt /app/share/fonts/NotoSans.LICENSE.txt
     sources:
       - type: file
-        url: https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@noto-monthly-release-2026.05.01/fonts/NotoSans/hinted/ttf/NotoSans-Regular.ttf
+        url: 
+          https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@noto-monthly-release-2026.05.01/fonts/NotoSans/hinted/ttf/NotoSans-Regular.ttf
         sha256: 478c558ea716033cd60c03438f628dfa75694dcf6b5f6d505a2f05fd2b4f3823
       - type: file
-        url: https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@noto-monthly-release-2026.05.01/fonts/LICENSE
+        url: 
+          https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io@noto-monthly-release-2026.05.01/fonts/LICENSE
         sha256: f2095b08bed08b23a6fe26112fcd679a2bee3f002eef077eb05d215ed1051bd8
         dest-filename: NotoSans.LICENSE.txt
 
@@ -77,7 +81,8 @@ modules:
       - install -Dm644 NotoSansCJK.LICENSE.txt /app/share/fonts/NotoSansCJK.LICENSE.txt
     sources:
       - type: file
-        url: https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@Sans2.004/Sans/OTC/NotoSansCJK-Regular.ttc
+        url: 
+          https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@Sans2.004/Sans/OTC/NotoSansCJK-Regular.ttc
         sha256: b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a
       - type: file
         url: https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@Sans2.004/LICENSE
